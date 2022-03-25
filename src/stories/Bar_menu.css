@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "LemonMilk";
+  src: url("./assets/LemonMilk.otf");
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: inline-block;
+  vertical-align: top;
+  color: black;
+  font-family : LemonMilk;
+}
+
+.baniere{
+  width: 100%;
+}
+
+.section-name {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+  width : 15%;
+  cursor: pointer;
+  background-color: #D3DCAF;
+  border-radius: 10px;
+}
+
+.img_barre{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+.div_menu {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 10%;
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  padding-top: 1%;
+}
+
+nav {
+}

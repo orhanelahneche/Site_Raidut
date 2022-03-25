@@ -1,25 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Bar_menu from './stories/Bar_menu'
+import Eventsection from './stories/Eventsection'
+import Accueil from './stories/Accueil'
+import Papier_dechire from './stories/Papier_dechire'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Site">
+    <Papier_dechire />
+    <Bar_menu />
+    <Accueil />
+    <Eventsection />
     </div>
   );
 }
-
 export default App;
