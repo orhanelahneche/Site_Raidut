@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "helvetica_neu";
+  src: url("./assets/helvetica_neu.ttf");
+}
+
+.FAQ-section{
+  background-color: transparent;
+  display : flex;
+  flex-direction: column;
+}
+
+.FAQ-section-title {
+  text-align:left;
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.FAQ-section-content{
+  display : flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.FAQ-section-title h1{
+    font-size: 3em;
+    color: #000000;
+}
+
+.association-section-chapter-title h1{
+  color: black;
+}

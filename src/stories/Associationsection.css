@@ -3,41 +3,59 @@
   src: url("./assets/helvetica_neu.ttf");
 }
 
-.event-section{
+.association-section{
   background-color: transparent;
   display : flex;
   flex-direction: column;
 }
 
-.envent-section-content{
+.association-section-content{
   display : flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding-bottom: 2%;
 }
 
-.event-section-title {
+.association-section-content p{
+  color : white;
+  font-size: 150%;
+  margin : 5%;
+}
+
+.association-section-title {
   text-align:left;
   display : flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.event-section-title h1{
+.association-section-title h1{
     font-size: 3em;
-    color: black;
+    color: #000000;
 }
 
-.event-section-chapter-title h1{
+.association-section-chapter-title h1{
   color: black;
 }
 
-.container{
-  background-color: transparent;
-  width : 25%;
+.container_asso{
+  width : 50%;
   border-radius: 10px;
   align-items: left;
   perspective: 1000px;
+  background-image: url("./assets/foret.jpeg");
+  background-size: cover;
+}
+
+.description{
+  border-radius: 10px;
+  display : flex;
+  flex-direction: row;
+  background-color: transparent;
+  margin: 5%;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  column-rule: 1px solid rgb(75, 70, 74);
 }
 
 
@@ -48,10 +66,6 @@
   text-align: center;
   transition: transform 0.5s;
   transform-style: preserve-3d;
-}
-
-.container:hover .container_inner {
-  transform: rotateY(180deg);
 }
 
 .container_front{
@@ -67,7 +81,7 @@
 }
 
 .back_Raid{
-  background-image: url('./assets/Plan_de_travail_2.png');  
+  background-image: url('./assets/Plan_de_travail_2.png');
 }
 
 .back_village{

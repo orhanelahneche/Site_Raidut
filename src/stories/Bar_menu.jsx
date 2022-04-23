@@ -13,7 +13,7 @@ function Bar_menu () {
       <div className="div_menu" id="div_menu">
         <Link
         activeClass="active"
-        to="App-header"
+        to="event-section"
         spy
         smooth
         offset={0}
@@ -24,18 +24,7 @@ function Bar_menu () {
         </Link>
         <Link
         activeClass="active"
-        to="event-section"
-        spy
-        smooth
-        offset={0}
-        duration={500}
-        className="section-name"
-        >
-          <h1>Billeterie</h1>
-        </Link>
-        <Link
-        activeClass="active"
-        to="App-header"
+        to="association-section"
         spy
         smooth
         offset={0}
@@ -46,7 +35,7 @@ function Bar_menu () {
         </Link>
         <Link
         activeClass="active"
-        to="App-header"
+        to="FAQ-section"
         spy
         smooth
         offset={0}
@@ -57,7 +46,7 @@ function Bar_menu () {
         </Link>
         <Link
         activeClass="active"
-        to="App-header"
+        to="Partenaires-section"
         spy
         smooth
         offset={0}

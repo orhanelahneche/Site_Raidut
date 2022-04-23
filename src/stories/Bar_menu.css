@@ -40,6 +40,7 @@ h1 {
 
 
 .div_menu {
+  z-index: 10;
   display : flex;
   flex-direction: row;
   justify-content: space-between;
@@ -49,8 +50,7 @@ h1 {
   height: 10%;
   background-color: transparent;
   position: sticky;
-  top: 0;
-  padding-top: 1%;
+  top: 1%;
 }
 
 nav {

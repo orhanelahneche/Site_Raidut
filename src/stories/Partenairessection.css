@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "helvetica_neu";
+  src: url("./assets/helvetica_neu.ttf");
+}
+
+.Partenaires-section{
+  background-color: transparent;
+  display : flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.Partenaires-section-title {
+  text-align:left;
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Partenaires-section-title h1{
+    font-size: 3em;
+    color: #000000;
+}
+
+.Partenaires-section-content{
+  background-color: transparent;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Partenaires-container{
+  width:10%;
+  height: 10%;
+}
+
+.Partenaires-container-row{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.association-section-chapter-title h1{
+  color: black;
+}
