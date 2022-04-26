@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "helvetica_neu";
-  src: url("./assets/helvetica_neu.ttf");
+  font-family: "play";
+  src: url("./assets/play.ttf");
 }
 
 .event-section{
@@ -34,7 +34,7 @@
 
 .container{
   background-color: transparent;
-  width : 25%;
+  width : 30%;
   border-radius: 10px;
   align-items: left;
   perspective: 1000px;
@@ -67,7 +67,7 @@
 }
 
 .back_Raid{
-  background-image: url('./assets/Plan_de_travail_2.png');  
+  background-image: url('./assets/Plan_de_travail_2.png');
 }
 
 .back_village{
@@ -100,6 +100,7 @@
   margin-right: auto;
   width : 87%;
   margin-bottom: 5%;
+  border : solid;
 }
 
 hr {

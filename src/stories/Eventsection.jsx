@@ -1,5 +1,6 @@
 import React from 'react'
 import './Eventsection.css'
+import Descriptif_parcours_difficile from './assets/Descriptif_parcours_difficile.svg'
 
 function Eventsection () {
   return(
@@ -18,13 +19,13 @@ function Eventsection () {
             <br/>
             <ul>
               <li>
-                Evènement sportifs
+                Évènement sportif
               </li>
               <li>
                 De multiples épreuves : VTT, Trail, Tir à la carabine
               </li>
               <li>
-                En équipe
+                En équipes
               </li>
               <li>
                 Dans la forêt de Compiègne
@@ -41,16 +42,19 @@ function Eventsection () {
             <br/>
             <ul>
             <li>
-              Gratuit
+              Ouvert à toutes et à tous GRATUITEMENT
             </li>
             <li>
-              Des animations
+              De nombreuses animations
             </li>
             <li>
-              Des associations
+              Des concerts
             </li>
             <li>
-              Un espace de restauration
+              Des compétitions fun
+            </li>
+            <li>
+              Un espace restauration, buvette et de détente
             </li>
             </ul>
           </div>

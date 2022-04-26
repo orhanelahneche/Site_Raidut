@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "helvetica_neu";
-  src: url("./assets/helvetica_neu.ttf");
+  font-family: "play";
+  src: url("./assets/play.ttf");
 }
 
 .association-section{
@@ -39,7 +39,7 @@
 }
 
 .container_asso{
-  width : 50%;
+  width : 70%;
   border-radius: 10px;
   align-items: left;
   perspective: 1000px;
@@ -58,6 +58,10 @@
   column-rule: 1px solid rgb(75, 70, 74);
 }
 
+.description p{
+  text-align: justify;
+  font-family: play;
+}
 
 .container_inner {
   position: relative;
@@ -99,7 +103,7 @@
 }
 
 .container_back li{
-  font-family: helvetica_neu;
+  font-family: play;
   font-size: x-large;
   margin-top:10%;
   text-align: left;

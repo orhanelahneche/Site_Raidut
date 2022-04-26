@@ -3,10 +3,6 @@ import { Link } from 'react-scroll'
 
 import './Bar_menu.css'
 
-import mountain from "./assets/mountain.svg"
-import flag from "./assets/flag.svg"
-import bike from "./assets/bike.svg"
-
 function Bar_menu () {
 
   return(
@@ -16,18 +12,18 @@ function Bar_menu () {
         to="event-section"
         spy
         smooth
-        offset={0}
+        offset={-50}
         duration={500}
         className="section-name"
         >
-          <h1>Evènement</h1>
+          <h1>Évènement</h1>
         </Link>
         <Link
         activeClass="active"
         to="association-section"
         spy
         smooth
-        offset={0}
+        offset={-50}
         duration={500}
         className="section-name"
         >
@@ -38,7 +34,7 @@ function Bar_menu () {
         to="FAQ-section"
         spy
         smooth
-        offset={0}
+        offset={-50}
         duration={500}
         className="section-name"
         >
@@ -49,7 +45,7 @@ function Bar_menu () {
         to="Partenaires-section"
         spy
         smooth
-        offset={0}
+        offset={-50}
         duration={500}
         className="section-name"
         >

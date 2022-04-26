@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "helvetica_neu";
-  src: url("./assets/helvetica_neu.ttf");
+  font-family: "play";
+  src: url("./assets/play.ttf");
 }
 
 .accordion{
@@ -20,6 +20,7 @@
   border-radius: 10px;
   margin: 1%;
   color : white;
+  font-family: play;
 }
 
 .accordion-content{
@@ -29,4 +30,5 @@
   cursor: pointer;
   text-align: left;
   padding: 1%;
+  font-family: play;
 }
