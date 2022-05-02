@@ -4,7 +4,9 @@ import './Accueil.css';
 function Accueil (){
   return (
     <div className="header">
-      <button type="button" className="button-billeterie"><h1>Rendez-vous sur la billeterie à partir du 29 avril pour prendre vos places!</h1></button>
+      <a href="https://assos.utc.fr/woolly/ventes/104">
+        <button type="button" className="button-billeterie" link="https://assos.utc.fr/woolly/ventes/104"><h1>Prend ta places ici pour le meilleur raid de l'année !</h1></button>
+      </a>
     </div>
 )
 }

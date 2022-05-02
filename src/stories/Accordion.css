@@ -6,6 +6,8 @@
 .accordion{
   background-color: #5E6A50;
   margin : 0.5%;
+  margin-right: 8vw;
+  margin-left: 8vw;
   border-radius: 10px;
 }
 
@@ -15,7 +17,7 @@
   flex-direction: row;
   justify-content:space-between;
   font-family: helvetica_neu;
-  font-size: x-large;
+  font-size: middle;
   cursor: pointer;
   border-radius: 10px;
   margin: 1%;
@@ -26,7 +28,7 @@
 .accordion-content{
   background-color: #D3DCAF;
   font-family: helvetica_neu;
-  font-size: x-large;
+  font-size: middle;
   cursor: pointer;
   text-align: left;
   padding: 1%;

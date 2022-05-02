@@ -3,7 +3,7 @@ import './Partenairessection.css'
 import CDF from './assets/CDF.jpg'
 import bde from './assets/bde.png'
 import Lydia from './assets/Lydia.png'
-import artisants from './assets/artisants_du_running.webp'
+import artisants from './assets/artisants_du_running.jpg'
 import HDF from './assets/Logo_Region_HDF.jpg'
 import my_room from './assets/logo-Compiegne.jpg'
 import Compi from './assets/LOGO-Myroom.png'
@@ -34,10 +34,10 @@ function Partenairessection () {
         </div>
         <div className="Partenaires-container-row">
           <div className="Partenaires-container">
-             <img width="100%" height="100%" src={HDF} alt="CDF" />
+             <img width="200%" height="200%" src={HDF} alt="CDF" />
           </div>
           <div className="Partenaires-container">
-              <img width="100%" height="100%" src={my_room} alt="bde" />
+              <img width="200%" height="200%" src={my_room} alt="bde" />
           </div>
           <div className="Partenaires-container">
               <img width="150%" height="150%" src={Compi} alt="bde" />

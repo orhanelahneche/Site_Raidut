@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-image: url("./stories/assets/background.png");
+  background-size: cover;
 }
 
 .App-logo {

@@ -24,7 +24,7 @@
 }
 
 .event-section-title h1{
-    font-size: 3em;
+    font-size: 2.8em;
     color: black;
 }
 
@@ -96,11 +96,37 @@
 }
 
 .descriptif{
-  margin-left: auto;
-  margin-right: auto;
-  width : 87%;
+  width : 60%;
   margin-bottom: 5%;
-  border : solid;
+  border : solid 10px;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.descriptif h1{
+  font-size: 150%
+}
+
+.descriptif_parcours{
+  display : flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.descriptif_parcours img{
+  margin-right: 8%;
+}
+
+.nom_epreuve{
+  position: absolute;
+  bottom : 30%;
+  left : 10%;
+  font-family: play;
+  font-size: 2vw;
 }
 
 hr {
