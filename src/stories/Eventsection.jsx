@@ -25,7 +25,7 @@ function Eventsection () {
                 Évènement sportif
               </li>
               <li>
-                De multiples épreuves : VTT, Trail, Tir à la carabine
+                De multiples épreuves : VTT, Trail, Tir à l'arc
               </li>
               <li>
                 En équipes
@@ -67,15 +67,15 @@ function Eventsection () {
     <div className="descriptif">
       <h1>Description</h1>
         <div className="descriptif_parcours">
-          <div className="nom_epreuve">La promenade du château</div>
+          <div className="nom_epreuve"><b>La promenade du château</b></div>
           <img width="50%" height="50%" src={Descro_facile} alt="bde" />
         </div>
         <div className="descriptif_parcours">
-          <div className="nom_epreuve">L’aventure des Beaux-Monts</div>
+          <div className="nom_epreuve"><b>L’aventure des Beaux-Monts</b></div>
           <img width="50%" height="50%" src={Descro_intermediaire} alt="bde" />
         </div>
         <div className="descriptif_parcours">
-          <div className="nom_epreuve">L’épreuve des 4 Monts</div>
+          <div className="nom_epreuve"><b>L’épreuve des 4 Monts</b></div>
           <img width="50%" height="50%" src={Descro_difficile} alt="bde" />
         </div>
     </div>

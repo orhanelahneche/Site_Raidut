@@ -15,6 +15,12 @@
   background-color: transparent;
   border: solid 10px;
   border-radius: 10px;
+  width : 40%;
+  text-align: center;
+}
+
+.button-billeterie h1{
+  font-size: 4vw;
 }
 
 .App-logo {
@@ -25,6 +31,7 @@
 button{
   cursor: pointer;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
